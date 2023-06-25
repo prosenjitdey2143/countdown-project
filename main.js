@@ -1,5 +1,5 @@
 //enter values
-let firstHeading="rick's bithday";
+let firstHeading="reek's bithday";
 let secondHeading = "<span>countdown...</span>";
 let date="july 1,2023 00:00:00";
 //target display element
@@ -31,12 +31,12 @@ function countdown() {
   if (diff <= 0) {
     boxes.setAttribute("style", "display:none");
     secPara.setAttribute("style", "display:none");
-    firstPara.innerHTML = "you had a happy birthday";
+    firstPara.innerHTML = "happy birthday reek";
     clearInterval(timeInterval);
     return;
   }
   if (diff == -days) {
-    firstPara.innerHTML = "you had a happy birthday";
+    firstPara.innerHTML ="happy birthday reek";
     clearInterval(timeInterval);
     return;
   }
